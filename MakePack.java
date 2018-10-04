@@ -4,11 +4,13 @@ public class MakePack{
 	public static void main(String[] args){
 		
 		Dog rover = new Dog("Beagle");
+		Dog chewy = new Dog("Chiwawa");
+	
+		Wolf wolfee = new Wolf();
 		
-		Dog chewy = new Dog();
-		chewy.setBreed("Chiwawa");
-		
-		Dog wolfee = new Dog("wolfee");
+		System.out.println(" Is Rover domesticated: " + rover.getDomesticated());
+		System.out.println(" Is Chewy domesticated: " + chewy.getDomesticated());
+		System.out.println(" Is Wolfee domesticated: " + wolfee.getDomesticated());
 	}
 	
 }
